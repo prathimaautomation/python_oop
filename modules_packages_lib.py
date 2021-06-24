@@ -48,3 +48,4 @@ if requests_api.status_code == 200: # 200 for success - 404 and above for failur
     print(type(requests_api.status_code))
     print(type(requests_api.headers))
     print(type(requests_api.content))
+
